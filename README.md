@@ -1,1 +1,1 @@
-Initial commit
+Fundamentals of styling the text
