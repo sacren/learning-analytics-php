@@ -13,6 +13,8 @@ h1 {
                0px 4px 1px rgba(0, 0, 0, 5),
                4px 4px 5px rgba(0, 0, 0, 7),
                0px 0px 7px rgba(0, 0, 0, 4);
+  text-align: center;
+  line-height: 2.5;
 }
 
 /* Adjacent sibling combinator matches the second */
@@ -27,4 +29,11 @@ p {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.4rem;
   text-decoration: underline;
+  text-indent: 5em;
+  background: plum;
+}
+
+p::first-line {
+  letter-spacing: 2px;
+  word-spacing: 4px;
 }
